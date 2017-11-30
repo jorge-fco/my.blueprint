@@ -1,5 +1,14 @@
 # My blueprint
 
+### Markdown
+```
+description:
+  label: Description
+  type:  markdown
+  help: Learn format Markdown (https://daringfireball.net/projects/markdown/syntax)
+```
+
+### Images
 ```
 cover:
   label: Image cover
