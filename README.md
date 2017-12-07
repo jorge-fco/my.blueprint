@@ -1,5 +1,10 @@
 # My blueprint
 
+[List fields types](https://getkirby.com/docs/cheatsheet/#panel-fields)
+
+[Anatomy of a blueprint](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
+
+
 ### Markdown
 ```
 description:
