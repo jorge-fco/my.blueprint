@@ -4,7 +4,27 @@
 
 [Anatomy of a blueprint](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
+```
+category:
+  label: Categorías
+  type: headline
 
+categories:
+  label: Agregar tus categorías
+  type: tags
+  help: Agregar el nombre de cada categoría separado por una coma (,)
+    
+category:
+  label: Categoría
+  type: select
+  help: Selecciona la categoría del proyecto.
+  width: 1/2
+  options: field
+  field:
+    page: works
+    name: categories
+```
+    
 ### Markdown
 ```
 description:
@@ -81,8 +101,4 @@ fields:
     type:  text
     width: 1/2
 ```
-
-
-
-
 
