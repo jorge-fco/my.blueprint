@@ -1,19 +1,26 @@
 # My blueprint
 
-[List fields types](https://getkirby.com/docs/cheatsheet/#panel-fields)
+📌[List fields types](https://getkirby.com/docs/cheatsheet/#panel-fields)
 
-[Anatomy of a blueprint](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
+📌[Anatomy of a blueprint](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
+### Header titles
 ```
 category:
   label: Categorías
   type: headline
+```
 
+### Tags
+```
 categories:
   label: Agregar tus categorías
   type: tags
   help: Agregar el nombre de cada categoría separado por una coma (,)
-    
+```
+
+### Categories
+```
 category:
   label: Categoría
   type: select
