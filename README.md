@@ -97,15 +97,41 @@ fields:
     label: Country
     type:  text
     width: 1/2
+    
+  email:
+    label: Correo
+    type:  email
+    icon: envelope
+    width: 1/2
+    help: correo@ejemplo.com
+
+  phone:
+    label: Teléfono
+    type:  tel
+    icon: phone
+    width: 1/2
+    help: Incluir numero LADA
+    placeholder: (33) 1234 5678
   
   facebook:
     label: Facebook
-    type:  text
+    type:  url
+    icon: facebook
     width: 1/2
-  
+    help: https://
+
   twitter:
     label: Twitter
-    type:  text
+    type:  url
+    icon: twitter
     width: 1/2
+    help: https://
+
+  instagram:
+    label: Instagram
+    type:  url
+    icon: instagram
+    width: 1/2
+    help: https://
 ```
 
