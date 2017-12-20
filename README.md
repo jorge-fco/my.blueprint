@@ -16,7 +16,7 @@ category:
 categories:
   label: Agregar tus categorías
   type: tags
-  help: Agregar el nombre de cada categoría separado por una coma (,)
+  help: Agregar el nombre de cada categoría separado por una <strong>coma (,)</strong>
 ```
 
 ### Categories
