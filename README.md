@@ -1,8 +1,10 @@
 # My blueprint
 
-📌[List fields types](https://getkirby.com/docs/cheatsheet/#panel-fields)
+📌[List fields types.](https://getkirby.com/docs/cheatsheet/#panel-fields)
 
-📌[Anatomy of a blueprint](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
+📌[Options panel fields.](https://getkirby.com/docs/panel/blueprints/form-fields)
+
+📌[Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
 ### Header titles
 ```
