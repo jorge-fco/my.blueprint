@@ -33,7 +33,18 @@ category:
     page: works
     name: categories
 ```
-    
+
+
+### PDF & Documents
+```
+pdf:
+  label: Archives
+  type: selector
+  mode: single
+  types:
+    - document
+```
+
 ### Markdown
 ```
 description:
