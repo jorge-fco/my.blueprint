@@ -75,7 +75,7 @@ videocover:
   options: video
 ```
 
-### Contact
+# ✉️ Contacto
 ```
 title: Page
 pages: false
@@ -147,4 +147,87 @@ fields:
     width: 1/2
     help: https://
 ```
+
+# 📈 Site
+```
+title: Site
+pages: default
+
+fields:
+  tab1:
+    label: Contenido
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Title
+    type:  text
+
+  author:
+    label: Author
+    type:  text
+    icon: font
+    width: 1/2
+    placeholder: WeLoveCorner
+    help: Nombre del autor
+
+  seoimage:
+    label: Share imagen (Rede Sociales)
+    type:  image
+    width: 1/2
+    help: Imagen que aparece al compartir la URL de tu sitio web
+
+  seodescription:
+    label: Descripción
+    type:  textarea
+    placeholder: ¿Quiénes somos?
+    help: Breve descripción sobre <strong>¿Quiénes somos?</strong> (50–300 characters.)
+
+  seotags:
+    label: keywords
+    type:  tags
+    help: Agregar el nombre de cada palabra separado por una <strong>coma (,)</strong>
+
+  tab2:
+    label: Deploy
+    type: tabs
+    icon: plug
+
+  info:
+    label: Información
+    type: info
+    text: >
+      Estos campos nos permiten actualizar la versión de nuestros archivos mediante valores numéricos de manera en incremento,
+      para que se vean reflejados los cambios cada que se realizan ajustes.
+      Solución para conflictos en la memoria cache de los navegadores.
+      <i class="fa fa-chrome" aria-hidden="true"></i>
+      <i class="fa fa-firefox" aria-hidden="true"></i>
+      <i class="fa fa-internet-explorer" aria-hidden="true"></i>
+      <i class="fa fa-safari" aria-hidden="true"></i>
+
+  css:
+    label: CSS
+    type:  text
+    icon: file
+    width: 1/3
+    placeholder: 0.01
+    help: Numero de versión para el archivo <strong>main.min.css</strong>
+
+  main:
+    label: MAIN
+    type:  text
+    icon: file
+    width: 1/3
+    placeholder: 0.01
+    help: Numero de versión para el archivo <strong>main.min.js</strong>
+
+  plugins:
+    label: PLUGINS
+    type:  text
+    icon: file
+    width: 1/3
+    placeholder: 0.01
+    help: Numero de versión para el archivo <strong>plugins.min.js</strong>
+```
+
 
