@@ -87,27 +87,32 @@ fields:
     type:  text
 
   street:
-    label: Street
+    label: Domicilio
+    type:  text
+    width: 1/2
+    
+  cp:
+    label: Código Postal
     type:  text
     width: 1/2
 
   colony:
-    label: Colony
+    label: Colonia
     type:  text
     width: 1/2
 
   city:
-    label: City
+    label: Ciudad
     type:  text
     width: 1/2
   
   state:
-    label: State
+    label: Estado
     type:  text
     width: 1/2
  
   country:
-    label: Country
+    label: País
     type:  text
     width: 1/2
     
