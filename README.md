@@ -66,13 +66,15 @@ cover:
 
 ### Video
 ```
-videocover:
-  label: Video Cover
-  icon: video-camera
+video:
+  label: Video (cover)
   width: 1/2
-  help: Select option video recommended format (.mp4)
-  type: select
-  options: video
+  icon: video-camera
+  help: Seleccionar video en formato <strong>(.mp4)</strong>
+  type: selector
+  mode: single
+  types:
+      - video
 ```
 
 # ✉️ Contacto
