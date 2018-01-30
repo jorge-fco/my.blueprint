@@ -1,0 +1,116 @@
+title: Contact
+pages: false
+files: true
+icon: envelope
+fields:
+  tab1:
+    label: Información
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Título
+    type:  text
+
+  street:
+    label: Domicilio
+    type:  text
+    icon: street-view
+    width: 1/2
+    placeholder: Calle No. 123
+
+  cp:
+    label: Código Postal
+    type:  text
+    icon: address-card
+    placeholder: 12345
+    width: 1/2
+
+  colony:
+    label: Colonia
+    type:  text
+    icon: map-signs
+    width: 1/2
+
+  city:
+    label: Ciudad
+    type:  text
+    icon: road
+    width: 1/2
+
+  state:
+    label: Estado
+    type:  text
+    icon: map
+    width: 1/2
+
+  country:
+    label: País
+    type:  text
+    icon: globe
+    width: 1/2
+
+  email:
+    label: Correo
+    type:  email
+    icon: envelope
+    width: 1/2
+    help: correo@ejemplo.com
+
+  telephone:
+    label: Teléfono
+    type:  tel
+    icon: phone
+    width: 1/2
+    help: Incluir numero LADA
+    placeholder: (33) 1234 5678
+
+  phone:
+    label: Celular
+    type:  tel
+    icon: mobile
+    width: 1/2
+    help: Incluir numero LADA
+    placeholder: (33) 1234 5678
+
+  whatsapp:
+    label: Whatsapp
+    type:  tel
+    icon: whatsapp
+    width: 1/2
+    help: Incluir numero LADA
+    placeholder: (33) 1234 5678
+
+  tab2:
+    label: Social Media
+    type: tabs
+    icon: thumbs-up
+
+  facebook:
+    label: Facebook
+    type:  url
+    icon: facebook
+    width: 1/2
+    help: Enlace de tu perfil
+
+  instagram:
+    label: Instagram
+    type:  url
+    icon: instagram
+    width: 1/2
+    help: Enlace de tu perfil
+
+  twitter:
+    label: Twitter
+    type:  url
+    icon: twitter
+    width: 1/2
+    help: Enlace de tu perfil
+
+  usertwitter:
+    label: Twitter (username)
+    type:  text
+    icon: twitter
+    width: 1/2
+    placeholder: @tu_usuario
+    help: Nombre de usuario
