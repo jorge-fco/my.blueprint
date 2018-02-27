@@ -65,7 +65,7 @@ description:
 ```
 
 ### Images
-```
+```yml
 cover:
   label: Image cover
   type: image
@@ -74,7 +74,11 @@ cover:
 
 ```
 
+### Gallery
+Install plugin `site/fiels/`
+```
 
+```
 ### Video
 ```
 video:
