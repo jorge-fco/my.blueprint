@@ -75,9 +75,11 @@ cover:
 ```
 
 ### Gallery
-Install plugin `site/fiels/`
-```
-
+Install plugin `site/fiels/gallery`
+```yml
+gallery:
+    label: Galería de imagenes
+    type: gallery
 ```
 ### Video
 ```
