@@ -22,7 +22,7 @@ categories:
 ```
 
 ### Categories
-```
+```yml
 category:
   label: Categoría
   type: select
@@ -34,6 +34,17 @@ category:
     name: categories
 ```
 
+```yml
+brand:
+  label: Marca
+  type: select
+  width: 1/3
+  help: Marca del producto.
+  options: field
+  field:
+    page: ../
+    name: brands
+```
 
 ### PDF & Documents
 ```
