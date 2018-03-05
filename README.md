@@ -27,12 +27,15 @@ addresses:
       street:
         label: Street
         type: text
+        icon:
       zip:
         label: ZIP
         type: text
+        icon:
       city:
         label: City
         type: text
+        icon:
 ```
 
 ### Tags
