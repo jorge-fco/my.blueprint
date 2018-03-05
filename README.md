@@ -13,6 +13,28 @@ category:
   type: headline
 ```
 
+### Structure
+```yml
+addresses:
+    label: Addresses
+    type: structure
+    modalsize: large
+    entry: >
+      {{street}}<br/>
+      {{zip}}<br/>
+      {{city}}
+    fields:
+      street:
+        label: Street
+        type: text
+      zip:
+        label: ZIP
+        type: text
+      city:
+        label: City
+        type: text
+```
+
 ### Tags
 ```
 categories:
