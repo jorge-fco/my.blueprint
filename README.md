@@ -95,23 +95,24 @@ cover:
   label: Image cover
   type: image
   width: 1/2
-  help: Select an image for the content / size recommended (1920px for 1080px) / (Max size file 100KB)
+  help: Selecciona la imagen / size recommended (1920px for 1080px) / (Max size file 1MB)
 
 ```
 
-### Gallery
+### 📷 Gallery
 Install plugin `site/fiels/gallery`
 ```yml
 gallery:
     label: Galería de imagenes
     type: gallery
 ```
+
 ### 🎥 Video
 ```yml
 myvideo:
     label: Video
     icon: video-camera
-    help: Seleccionar video en formato <strong>(.MP4)</strong> Tiempo máximo del video <strong>10 seconds</strong>
+    help: Seleccionar video en formato <strong>(.MP4)</strong> Tiempo máximo del video <strong>5-10 seconds</strong> Max size file 5MB
     type: select
     options: videos
 ```
