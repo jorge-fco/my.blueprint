@@ -106,15 +106,12 @@ gallery:
     label: Galería de imagenes
     type: gallery
 ```
-### Video
-```
-video:
-  label: Video (cover)
-  width: 1/2
-  icon: video-camera
-  help: Seleccionar video en formato <strong>(.mp4)</strong>
-  type: selector
-  mode: single
-  types:
-      - video
+### 🎥 Video
+```yml
+myvideo:
+    label: Video
+    icon: video-camera
+    help: Seleccionar video en formato <strong>(.MP4)</strong> Tiempo máximo del video <strong>10 seconds</strong>
+    type: select
+    options: videos
 ```
