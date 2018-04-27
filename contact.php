@@ -22,12 +22,18 @@ Social Media
 
 <?php if (page('contacto')->twitter()): ?>
 <a href="<?= page('contacto')->twitter() ?>" title="Twitter" target="_blank">
-<?php snippet('icons/twitter') ?>
+  <?php snippet('icons/twitter') ?>
 </a>
 <?php endif ?>
 
 <?php if (page('contacto')->facebook()): ?>
 <a href="<?= page('contacto')->facebook() ?>" title="Facebook" target="_blank">
-<?php snippet('icons/facebook') ?>
+  <?php snippet('icons/facebook') ?>
+</a>
+<?php endif ?>
+
+<?php if (page('contacto')->instagram()): ?>
+<a href="<?= page('contacto')->instagram() ?>" title="Instagram" target="_blank">
+  <?php snippet('icons/instagram') ?>
 </a>
 <?php endif ?>
