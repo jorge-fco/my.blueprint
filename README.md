@@ -6,6 +6,14 @@
 
 📌[Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
+
+### Contact
+Telephone
+```php
+<?= page('contacto')->telephone()->html() ?>
+```
+
+
 ### Header titles
 ```
 category:
