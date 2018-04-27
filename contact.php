@@ -10,3 +10,11 @@ Phone
 Whatsapp
 <?= page('contacto')->whatsapp()->html() ?>
 
+<?php if (page('contacto')->twitter()): ?>
+  <li>
+    <a href="<?= page('contacto')->twitter() ?>" title="Twitter" target="_blank">
+      <?php snippet('icons/twitter') ?>
+    </a>
+  </li>
+<?php endif ?>
+
