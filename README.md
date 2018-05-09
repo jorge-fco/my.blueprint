@@ -20,26 +20,24 @@ addresses:
     type: structure
     modalsize: large
     entry: >
-      {{street}}<br/>
-      {{zip}}<br/>
-      {{city}}
+      {{name}}<br/>
+      {{thumb}}<br/>
+      {{description}}
     fields:
-      street:
-        label: Street
+      name:
+        label: Name
         type: text
-        icon:
-      zip:
-        label: ZIP
-        type: text
-        icon:
+        icon: font
+      thumb:
+        label: Imagen
+        type: image
       city:
-        label: City
-        type: text
-        icon:
+        label: Descripción
+        type: markdown
 ```
 
 ### Tags
-```
+```yml
 categories:
   label: Agregar tus categorías
   type: tags
@@ -72,7 +70,7 @@ brand:
 ```
 
 ### PDF & Documents
-```
+```yml
 pdf:
   label: Archives
   type: selector
