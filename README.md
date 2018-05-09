@@ -1,13 +1,13 @@
 # My blueprint
 
-📌[List fields types.](https://getkirby.com/docs/cheatsheet/#panel-fields)
+📌[List fields types. (Todos los tipos de campos)](https://getkirby.com/docs/cheatsheet/#panel-fields)
 
-📌[Options panel fields.](https://getkirby.com/docs/panel/blueprints/form-fields)
+📌[Options panel fields. (Opciones para un campo)](https://getkirby.com/docs/panel/blueprints/form-fields)
 
 📌[Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
 ### Header titles
-```
+```yml
 category:
   label: Categorías
   type: headline
@@ -80,7 +80,7 @@ pdf:
 ```
 
 ### Markdown
-```
+```yml
 description:
   label: Description
   type:  markdown
