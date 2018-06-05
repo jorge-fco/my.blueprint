@@ -71,12 +71,12 @@ brand:
 
 ### PDF & Documents
 ```yml
-pdf:
-  label: Archives
-  type: selector
-  mode: single
-  types:
-    - document
+archivo:
+    label: Archivo
+    icon: file
+    help: Seleccionar un archivo en formato <strong>(.PDF)</strong>
+    type: select
+    options: documents
 ```
 
 ### Markdown
