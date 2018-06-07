@@ -15,8 +15,8 @@ category:
 
 ### Structure
 ```yml
-addresses:
-    label: Addresses
+slider:
+    label: Slider principal
     type: structure
     modalsize: large
     entry: >
@@ -31,7 +31,7 @@ addresses:
       thumb:
         label: Imagen
         type: image
-      city:
+      description:
         label: Descripción
         type: markdown
 ```
