@@ -114,3 +114,17 @@ fields:
     width: 1/2
     placeholder: @tu_usuario
     help: Nombre de usuario
+    
+  dribbble:
+    label: Dribbble
+    type:  url
+    icon: dribbble
+    width: 1/2
+    help: Enlace de tu perfil
+
+  behance:
+    label: Behance
+    type:  url
+    icon: behance-square
+    width: 1/2
+    help: Enlace de tu perfil
