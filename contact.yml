@@ -128,3 +128,10 @@ fields:
     icon: behance-square
     width: 1/2
     help: Enlace de tu perfil
+    
+  linkedin:
+    label: Linkedin
+    type:  url
+    icon: linkedin
+    width: 1/2
+    help: Enlace de tu perfil
