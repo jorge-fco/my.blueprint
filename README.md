@@ -45,6 +45,7 @@ categories:
 ```
 
 ### Categories
+Name page
 ```yml
 category:
   label: Categoría
@@ -57,6 +58,7 @@ category:
     name: categories
 ```
 
+Move path
 ```yml
 brand:
   label: Marca
@@ -67,6 +69,19 @@ brand:
   field:
     page: ../
     name: brands
+```
+
+Find page
+```yml
+link:
+    label: Link
+    type: select
+    options: query
+    query:
+      page: /
+      fetch: pages
+      value: '{{uri}}'
+      text: '{{title}}'
 ```
 
 ### PDF & Documents
