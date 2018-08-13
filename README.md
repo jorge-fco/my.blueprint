@@ -94,6 +94,15 @@ archivo:
     options: documents
 ```
 
+### Checkbox
+```yml
+zoom:
+    label: Activar zoom para este producto
+    type: checkbox
+    text: Dar click para activar
+    help: Selecciona el checkbox <i class="fa fa-check-square" aria-hidden="true"></i>
+```
+
 ### Markdown
 ```yml
 description:
