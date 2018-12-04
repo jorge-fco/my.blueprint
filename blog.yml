@@ -1,0 +1,15 @@
+title: Blog
+icon: folder
+files: false
+pages: true
+    template: post
+fields:
+  title:
+    label: Title
+    type:  text
+
+  subtitle:
+    label: Subtítulo
+    type:  text
+    icon: font
+
