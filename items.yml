@@ -1,1 +1,18 @@
-items
+items:
+    label: Agregar item
+    type: structure
+    modalsize: large
+    entry: >
+      {{name}}<br />
+      {{imagen}}<br />
+      {{description}}
+    fields:
+      name:
+        label: Nombre
+        type: text
+      imagen:
+        label: Imagen
+        type: image
+      description:
+        label: Información
+        type: markdown
