@@ -6,6 +6,8 @@
 
 📌[Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
+📌https://github.com/distantnative/field-multiselect
+
 ### Header titles
 ```yml
 category:
