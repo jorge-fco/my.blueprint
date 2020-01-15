@@ -1,0 +1,12 @@
+myvideo:
+   label: Video
+   width: 1/2
+   icon: video-camera
+   help: Seleccionar video en formato <strong>(.MP4)</strong> Tiempo máximo del video <strong>5-10 seconds</strong> Max size file 5MB
+   type: select
+   options: videos
+
+ poster:
+   label: Video poster.
+   type:  image
+   width: 1/2
