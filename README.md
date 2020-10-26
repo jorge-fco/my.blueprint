@@ -1,12 +1,21 @@
 # My blueprint
 
-📌[List fields types. (Todos los tipos de campos)](https://getkirby.com/docs/cheatsheet/#panel-fields)
+📌 [List fields types. (Todos los tipos de campos)](https://getkirby.com/docs/cheatsheet/#panel-fields)
 
-📌[Options panel fields. (Opciones para un campo)](https://getkirby.com/docs/panel/blueprints/form-fields)
+📌 [Options panel fields. (Opciones para un campo)](https://getkirby.com/docs/panel/blueprints/form-fields)
 
-📌[Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
+📌 [Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
-📌https://github.com/distantnative/field-multiselect
+📌 https://github.com/distantnative/field-multiselect
+
+### Pages.
+```yml
+…
+pages:
+  template: project
+…
+```
+
 
 ### Header titles
 ```yml
