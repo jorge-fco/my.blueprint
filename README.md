@@ -11,6 +11,8 @@
 ### Pages.
 ```yml
 …
+title: Servicios
+icon: briefcase
 pages:
   template: project
 …
