@@ -1,1 +1,114 @@
 
+title: SEO
+icon: cog
+files: true
+pages: false
+options:
+  preview: false
+  status: false
+  template: false
+  url: false
+  delete: false
+fields:
+  previewfiles:
+    type: previewfiles
+  tab1:
+    label: Configuración
+    type: tabs
+    icon: align-left
+
+  title:
+    label: Título
+    type:  text
+    disabled: true
+
+  author:
+    label: Autor
+    type:  text
+    icon: font
+    placeholder: Empresa
+    help: Nombre del autor
+
+  icon:
+    label: Favicon (.ico)
+    type:  image
+    icon: file
+    width: 1/2
+
+  seoimage:
+    label: Share imagen (Rede Sociales)
+    type:  image
+    width: 1/2
+    help: Imagen que aparece al compartir la URL de tu sitio web
+
+  seodescription:
+    label: Descripción corta
+    type:  textarea
+    placeholder: (50–300 characters)
+    help: Breve descripción (50–300 characters)
+
+  seotags:
+    label: keywords
+    type:  tags
+    help: Agregar el nombre de cada palabra separado por una <strong>coma (,)</strong>
+
+  #= ANALYTICS
+  tab2:
+    label: Analytics
+    type: tabs
+    icon: line-chart
+
+  facebook_headline:
+    label: <i class="fa fa-facebook-square" aria-hidden="true"></i> FACEBOOK
+    type: headline
+
+  facebook_id:
+    label: Facebook App ID
+    type:  text
+    icon: facebook
+    width: 1/2
+    help: Información – https://developers.facebook.com/apps/
+
+  facebook_site_verification:
+    label: Facebook Domain Verification
+    type:  text
+    icon: facebook
+    width: 1/2
+    help: meta name="facebook-domain-verification" content=""
+
+  facebook_pixel_code:
+    label: Facebook Pixel Code
+    type:  textarea
+    help: <i class="fa fa-facebook-official" aria-hidden="true"></i> embed code tag <strong>head</strong>
+
+  google_headline:
+    label: <i class="fa fa-google" aria-hidden="true"></i> GOOGLE
+    type: headline
+
+  google_site_verification:
+    label: Google Site Verification
+    type:  text
+    icon: google
+    help: meta name="google-site-verification" content=""
+
+  google_tag_manager_head:
+    label: Google Tag Manager (head)
+    type:  textarea
+    placeholder: <script></script>
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>head</strong>
+
+  google_tag_manager_body:
+    label: Google Tag Manager (body)
+    type:  textarea
+    placeholder: <script></script>
+    help: <i class="fa fa-google" aria-hidden="true"></i> embed code tag <strong>body</strong>
+
+  tab3:
+    label: Deploy
+    type: tabs
+    icon: plug
+
+  deploy:
+    label: <i class="fa fa-bar-chart" aria-hidden="true"></i> Activar Analytics
+    type:  switch
+    text:  Activar el monitoreo de datos para el sitio web
