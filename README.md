@@ -6,7 +6,7 @@
 
 📌 [Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
-📌 https://github.com/distantnative/field-multiselect
+📌 https://github.com/brocessing/kirby-previewfiles/
 
 ### Pages.
 ```yml
