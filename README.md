@@ -11,6 +11,8 @@
 
 📌 https://github.com/JonasDoebertin/kirby-visual-markdown
 
+📌 https://github.com/medienbaecker/kirby-quickselect
+
 ### Pages.
 ```yml
 …
