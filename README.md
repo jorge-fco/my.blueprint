@@ -6,7 +6,10 @@
 
 📌 [Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
 
+### Fields
 📌 https://github.com/brocessing/kirby-previewfiles/
+
+📌 https://github.com/JonasDoebertin/kirby-visual-markdown
 
 ### Pages.
 ```yml
