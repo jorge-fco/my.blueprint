@@ -1,0 +1,21 @@
+# Version Kirby v3, v4
+#= SEO
+type: group
+fields:
+  seo_header:
+    label: 🔗 SEO (Search Engine Optimization)
+    type: headline
+
+  titulo:
+    label: Título
+    type: text
+    width: 1/2
+
+  meta_image:
+    label: Imagen para share (PNG or JPG)
+    type: files
+    width: 1/2
+
+  meta_description:
+    label: Meta description (Max 250 characters)
+    type: textarea
