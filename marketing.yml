@@ -1,0 +1,56 @@
+# Marketing
+# 12-FEB-2024
+title: Marketing
+icon: 🔍
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          # GOOGLE
+          google_header:
+            label: Google
+            type: headline
+
+          google_verification:
+            label: Google verification token
+            type: text
+            help: Meta Tag Verification
+            icon: 📋
+
+          google_analytics:
+            label: Google Analytics
+            type: text
+            help: Script code
+            icon: code
+
+          google_tag_manager:
+            label: Google Tag Manager
+            type: text
+            help: Script code
+            icon: code
+
+           # FACEBOOK
+          facebook_header:
+            label: Facebook
+            type: headline
+
+          facebook_verification:
+            label: Facebook verification domain
+            type: text
+            help: Meta Tag Verification
+            icon: 📋
+
+          facebook_pixel:
+            label: Facebook Pixel code
+            type: text
+            help: Script code
+            icon: code
+  sidebar:
+    width: 1/3
+    sections:
+      pages: false
+      files: false
+
