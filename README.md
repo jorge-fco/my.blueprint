@@ -40,14 +40,13 @@ categories:
 Name page
 ```yml
 category:
-  label: Categoría
-  type: select
-  help: Selecciona la categoría del proyecto.
-  width: 1/2
-  options: field
-  field:
-    page: works
-    name: categories
+    label: Categoría
+    type: select
+    width: 1/2
+    help: Selecciona la categoría del proyecto.
+    options:
+      type: query
+      query: page.parent.categories.split
 ```
 
 Move path
