@@ -1,6 +1,6 @@
 # My blueprint
 
-📌 [List fields types. (Todos los tipos de campos)](https://getkirby.com/docs/cheatsheet/#panel-fields)
+📌 [Fields in the Panel](https://getkirby.com/docs/guide/content/fields)
 
 📌 [Options panel fields. (Opciones para un campo)](https://getkirby.com/docs/panel/blueprints/form-fields)
 
