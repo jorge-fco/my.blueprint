@@ -2,10 +2,6 @@
 
 📌 [Fields in the Panel](https://getkirby.com/docs/guide/content/fields)
 
-📌 [Options panel fields. (Opciones para un campo)](https://getkirby.com/docs/panel/blueprints/form-fields)
-
-📌 [Anatomy of a blueprint.](https://getkirby.com/docs/panel/blueprints/anatomy-of-a-blueprint)
-
 ### Fields
 📌 https://github.com/brocessing/kirby-previewfiles/
 
