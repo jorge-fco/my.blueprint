@@ -2,30 +2,8 @@
 
 📌 [Fields in the Panel](https://getkirby.com/docs/guide/content/fields)
 
-### Fields
-📌 https://github.com/brocessing/kirby-previewfiles/
-
-📌 https://github.com/JonasDoebertin/kirby-visual-markdown
-
-📌 https://github.com/medienbaecker/kirby-quickselect
-
-### Pages.
-```yml
-…
-title: Servicios
-icon: briefcase
-pages:
-  template: project
-…
-```
 
 
-### Header titles
-```yml
-category:
-  label: Categorías
-  type: headline
-```
 
 ### Structure
 ```yml
@@ -115,14 +93,6 @@ zoom:
     type: checkbox
     text: Dar click para activar
     help: Selecciona el checkbox <i class="fa fa-check-square" aria-hidden="true"></i>
-```
-
-### Markdown
-```yml
-description:
-  label: Description
-  type:  markdown
-  help: Learn format Markdown (https://daringfireball.net/projects/markdown/syntax)
 ```
 
 ### Images
